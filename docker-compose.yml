@@ -1,0 +1,21 @@
+version: '1'
+
+services:
+  provider:
+    build: ./provider/
+    container_name: provider
+    ports:
+      - "8082:8082"
+    networks:
+      - my-network
+
+  consumer:
+    build: ./consumer/
+    container_name: consumer
+    ports:
+      - "8084:8084"
+    networks:
+      - my-network
+
+networks:
+  my-network:

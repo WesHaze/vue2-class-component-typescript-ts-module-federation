@@ -1,7 +1,7 @@
 <template>
   <div>
     <p class="blue">hello testttt</p>
-    <button onclick="log()">{{ msg }}</button>
+    <button v-on:click="log">{{ msg }}</button>
   </div>
 </template>
 
