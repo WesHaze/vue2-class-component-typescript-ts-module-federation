@@ -1,6 +1,6 @@
 <template>
   <div>
-    <p class="blue">hello testttt</p>
+    <p class="blue">hello from provider</p>
     <button v-on:click="log">{{ msg }}</button>
   </div>
 </template>

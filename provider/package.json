@@ -5,7 +5,7 @@
   "scripts": {
     "publish": "set NODE_ENV=production&& webpack --mode=production",
     "build": "set NODE_ENV=development&& webpack",
-    "dev": "set NODE_ENV=development&& webpack-dev-server --hot --color"
+    "start": "set NODE_ENV=development&& webpack-dev-server --hot --color"
   },
   "dependencies": {
     "url-loader": "^4.1.1",

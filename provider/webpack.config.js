@@ -1,6 +1,3 @@
-/* eslint-disable @typescript-eslint/no-var-requires */
-/* eslint-disable prettier/prettier */
-// eslint-disable-next-line @typescript-eslint/no-var-requires
 const path = require("path");
 const { VueLoaderPlugin } = require("vue-loader");
 const { ModuleFederationPlugin } = require('webpack').container;

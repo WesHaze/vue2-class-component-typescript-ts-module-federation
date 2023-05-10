@@ -40,7 +40,7 @@ module.exports = {
         options: { appendTsSuffixTo: [/\.vue$/] }
       },
       {
-        test: /\.css|.sass|.scss$/,
+        test: /\.css/,
         use: [
           {
             loader: MiniCssExtractPlugin.loader,
@@ -49,7 +49,6 @@ module.exports = {
             }
           },
           "css-loader",
-          "sass-loader"
         ]
       },
       {
